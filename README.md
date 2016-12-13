@@ -1,5 +1,7 @@
 # REPL ConsoleReader
-A replacement of Console.ReadLine() that enables pluggable auto-completion, undo/redo, command history, copy/paste via ctrl+c/ctrl+x/ctrl+v, and other common text editor keyboard shortcuts.
+
+_A replacement of Console.ReadLine() that enables pluggable auto-completion, undo/redo, command history, copy/paste via ctrl+c/ctrl+x/ctrl+v, and other common text editor keyboard shortcuts._
+
 --------------------------------------------------------------------------------
 
 To use, create an instance of the ConsoleReader class. The default constructor will not have auto-completion activated, but all other features are enabled.
