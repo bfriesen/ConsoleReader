@@ -182,7 +182,7 @@ namespace Repl
                                 }
                                 break;
                             case ConsoleKey.Delete:
-                                if (bufferIndex == buffer.Length) break;
+                                if (bufferIndex == buffer.Length && selection.Length == 0) break;
                                 bufferIndex = Delete(startLeft, startTop, buffer, selection, bufferIndex, keyInfo);
                                 break;
                             case ConsoleKey.Home:
